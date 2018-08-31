@@ -23,7 +23,7 @@ class Note extends Component {
     }
 
     remove() {
-        alert('remove');
+        this.props.onRemove(this.props.index);
     }
 
     save(e) {
